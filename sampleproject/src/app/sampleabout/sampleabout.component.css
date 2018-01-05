@@ -1,0 +1,26 @@
+.about {
+    background-color: cadetblue;
+    color: #000000;
+    padding: 30px;
+    box-sizing: border-box; 
+}
+h1 {
+    text-transform: uppercase; 
+}
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+@media (min-width: 992px) {
+    p {
+    font-size: 18px;
+    }
+  }
+@media (max-width: 991px) {
+    p {
+    font-size: 14px;
+    }
+    h1 {
+        font-size: 30px!important;
+    }
+  }
